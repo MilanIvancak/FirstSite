@@ -33,13 +33,13 @@ body, html {
 
 .active {
     color:#fc036b;
-    text-decoration: underline;
     font-weight: bold;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
+    font-size: 2vmin;
 }
 
 .nav-links li {
@@ -175,6 +175,7 @@ p {
 
 .explore-content h1 {
     font-size: 7vmin;
+    display: flex;
     padding-bottom: 15px;
 }
 
@@ -385,5 +386,11 @@ img {
 
 img:hover {
     transform: scale(1.1);
+}
+
+li:hover {
+    color: #fc036b;
+    cursor:pointer;
+    text-decoration: underline;
 }
 
